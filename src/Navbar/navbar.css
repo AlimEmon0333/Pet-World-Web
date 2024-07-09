@@ -1,0 +1,37 @@
+:root {
+  --blue: #3366ff;
+}
+.top_nav {
+  height: 80px;
+  background-color: white;
+  align-items: center;
+}
+.nav_logo{
+  font-weight: bolder;
+  font-size: 25px;
+}
+.signup {
+  background-color: white;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 0px 3px;
+  transition: 0.6s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.signup:hover {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  padding: 5px 15px;
+  margin: 0px 3px;
+  color: white;
+}
+.login {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 0px 5px;
+  color: white;
+  transition: 0.6s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
